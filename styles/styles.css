@@ -5,14 +5,14 @@ main {
 aside {
     width:auto;
     margin: 1rem;
-    border: 3px solid rgb(0 0 0 .0,2);
+    border: 3px solid rgb(0 0 0 0,2);
     padding: 1rem;
     background-color: #faf0e6;
     text-align: center;
 }
 
 aside img {
-    width: 200;
+    width: 200px;
     height: auto;
 }
 
