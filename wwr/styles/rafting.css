@@ -179,9 +179,10 @@ p {
     padding: 1rem 2rem;
     width: 100%;
     box-sizing: border-box;
-    gap: 1em;
+    gap: 1rem;
     border-top: var(--border);
     background-color: var(--background-color);
+    text-decoration: none;
   }
   
   .footer p {
@@ -201,10 +202,5 @@ p {
   .footer .sociallinks img {
     height: 24px;
     width: auto;
-    display: block;
   }
-  
-  body {
-      margin: 0;
-      font-family: sans-serif;
-  }
+
