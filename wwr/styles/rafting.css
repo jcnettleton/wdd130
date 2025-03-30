@@ -101,7 +101,7 @@ h2 {
 
 .history {
     display: grid;
-    grid-area: 3fr / 3fr;
+    grid-template: 3fr / 3fr;
     background-color: var(--background-color);
     justify-items: center;
     align-items: center;
