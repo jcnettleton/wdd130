@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-styles.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-items column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <!-- The method below is a much cleaner way to write this IMO -->
+                <div class="form-items column2">
+                    <label for="email">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-items column1">
+                    <label for="browser">What is you favorite browser?</label>
+                        <select name="browser" id="browser">
+                            <option value="chrome">chrome</option>
+                            <option value="firefox">firefox</option>
+                            <option value="zen">zen</option>
+                            <option value="edge">edge</option>
+                            <option value="vivaldi">vivaldi</option>
+                        </select>
+                </div>
+                <!-- <label>Do you have a household pet?<input type="checkbox"></label> -->
+                <!-- This is the same thing here just written 2 different ways -->
+                <div class="form-items">
+                    <label for="pet">Do you have a pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+                <div class="form-items">
+                    <label>List the places you have lived:<textarea name="feedback" rows="4" placeholder="123 your mom's place"></textarea></label>
+                </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+        <footer>John Nettleton | WD130</footer>
+    </main>
+</body>
+</html>
