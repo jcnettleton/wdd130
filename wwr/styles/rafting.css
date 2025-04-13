@@ -520,7 +520,7 @@ h1 {
   gap: 10px;
   background-color: var(--background-color);
   padding: var(--padding);
-  border: var(--border);
+  /* border: var(--border); */
   border-radius: 10px;
 }
 
